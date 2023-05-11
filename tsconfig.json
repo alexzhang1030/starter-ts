@@ -1,16 +1,23 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["ESNext"],
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
+    "allowJs": true,
     "skipLibCheck": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
     "skipDefaultLibCheck": true,
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "exclude": [
     "dist",
