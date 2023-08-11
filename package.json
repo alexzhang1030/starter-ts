@@ -11,8 +11,8 @@
   "keywords": [],
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
     }
   },
   "main": "./dist/index.js",
@@ -24,7 +24,7 @@
   "scripts": {
     "test": "vitest",
     "lint": "eslint .",
-    "prepare": "simple-git-hooks",
+    "postinstall": "simple-git-hooks",
     "build": "tsup",
     "prepublishOnly": "pnpm run build",
     "release": "vitest run && bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish"
