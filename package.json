@@ -31,10 +31,10 @@
     "release": "vitest run && bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.0.0",
+    "@antfu/eslint-config": "^1.1.1",
     "bumpp": "^9.2.0",
-    "eslint": "^8.52.0",
-    "lint-staged": "^15.0.2",
+    "eslint": "^8.53.0",
+    "lint-staged": "^15.1.0",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
