@@ -34,7 +34,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.4",
     "bumpp": "^9.3.0",
-    "eslint": "^8.56.0",
+    "eslint": "npm:eslint-ts-patch@8.56.0-0",
+    "eslint-ts-patch": "8.56.0-0",
     "lint-staged": "^15.2.2",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^8.0.2",
