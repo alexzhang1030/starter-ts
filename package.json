@@ -11,6 +11,7 @@
     "url": "git+https://github.com/alexzhang1030/lib-name.git"
   },
   "keywords": [],
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/index.js",
