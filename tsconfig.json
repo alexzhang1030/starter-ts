@@ -3,16 +3,19 @@
     "target": "ESNext",
     "lib": ["ESNext"],
     "baseUrl": ".",
-    "module": "Preserve",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "paths": {
       "@/*": ["src/*"]
     },
+    "resolveJsonModule": true,
     "types": ["vitest/globals"],
     "allowJs": true,
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
+    "esModuleInterop": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
   },
