@@ -2,7 +2,7 @@
   "name": "lib-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "pnpm@9.7.0",
   "description": "lib-description",
   "author": "alexzhang1030",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "release": "vitest run && bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.24.1",
+    "@antfu/eslint-config": "^2.25.1",
     "bumpp": "^9.4.2",
     "eslint": "npm:eslint-ts-patch@8.56.0-0",
     "eslint-ts-patch": "8.56.0-0",
