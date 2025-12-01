@@ -2,7 +2,7 @@
   "name": "lib-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.23.0",
+  "packageManager": "pnpm@10.24.0",
   "description": "lib-description",
   "author": "alexzhang1030",
   "license": "MIT",
@@ -39,14 +39,14 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
-    "bumpp": "^10.3.1",
+    "bumpp": "^10.3.2",
     "eslint": "^9.39.1",
     "lint-staged": "^16.2.7",
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.1",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.13"
+    "vitest": "^4.0.14"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
