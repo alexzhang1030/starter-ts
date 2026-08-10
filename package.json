@@ -2,7 +2,7 @@
   "name": "lib-name",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.34.5",
+  "packageManager": "pnpm@11.21.0",
   "description": "lib-description",
   "author": "alexzhang1030",
   "license": "MIT",
